@@ -1,29 +1,27 @@
 import gsap from "gsap"
 import {useGSAP} from "@gsap/react"
 import { useRef } from "react"
+
+import { mainTL } from "../../sharedTimeline"
 export function Nav(){
   const ulRef = useRef()
+  const navRef = useRef()
   useGSAP(()=>{
     const lis = gsap.utils.toArray(ulRef.current.children)
 
-    const tl  = gsap.timeline()
+   
 
-    tl.from(".left",{
-      y:-200,
-      opacity:0,
-      duration:1,
-      ease:"power3.out",
-      scale:0.95
-    }).from(lis,{
+    mainTL.from(lis,{
       y:-400,
       opacity:0,
-      stagger:0.12,
+      duration:1,
+      stagger:0.16,
       ease:"power1.inOut",
       filter: "blur(6px)",
-    },"-=0.3")
-  })
+    })
+  },{scope:navRef})
   return(
-    <nav className="flex items-center gap-2 p-10 justify-between overflow-hidden">
+    <nav className="flex items-center  p-10 justify-between " ref={navRef}>
       <div className="left flex items-center gap-2 justify-center">
         <img src="https://wizardz-ak.netlify.app/img/sparkle.png" className="w-[60px]" alt="" />
         <h2 className="text-4xl font-bold">
