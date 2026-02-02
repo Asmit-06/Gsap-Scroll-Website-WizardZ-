@@ -71,7 +71,7 @@ export function Page2() {
 
       <div className="grid grid-cols-2 gap-10 pl-15  " ref={gridRef}>
         <div className="box search flex justify-between items-center border-2 border-black rounded-2xl  w-[43vw] p-10 ">
-          <div className="content pl-12 ">
+          <div className="content ">
             <h1 className="font-bold text-5xl mb-10 bg-[#a1eb7f] py-5 px-5">
               Search Engine Optimization
             </h1>
@@ -80,7 +80,7 @@ export function Page2() {
           <img className="w-[22vw] h-[30vh]" src="https://wizardz-ak.netlify.app/img/download.jpg" alt="" />
         </div>
         <div className="box advertise flex justify-between items-center border-2 border-black rounded-2xl w-[43vw]  p-10">
-          <div className="content pl-12">
+          <div className="content ">
             <h1 className="font-bold text-5xl mb-10 bg-[#a1eb7f] py-5 px-5">Pay per click
             advertising</h1>
             <p className="text-3xl"><span className="text-white bg-black rounded-[50%] px-2 text-3xl ">&rarr;</span> Learn More</p>
@@ -88,7 +88,7 @@ export function Page2() {
           <img className="w-[22vw] h-[30vh]" src="https://wizardz-ak.netlify.app/img/PPC.jpg" alt="" />
         </div>
         <div className="box social flex justify-between items-center border-2 border-black rounded-2xl w-[43vw]  p-10">
-          <div className="content pl-12">
+          <div className="content">
             <h1 className="font-bold text-5xl mb-10 bg-[#a1eb7f] py-5 px-5">Social media
             marketing</h1>
             <p className="text-3xl"><span className="text-white bg-black rounded-[50%] px-2 text-3xl">&rarr;</span> Learn More</p>
@@ -96,7 +96,7 @@ export function Page2() {
           <img className="w-[22vw] h-[30vh]" src="https://wizardz-ak.netlify.app/img/social.jpg" alt="" />
         </div>
         <div className="box marketing flex justify-between items-center border-2 border-black rounded-2xl w-[43vw]  p-10">
-          <div className="content pl-12">
+          <div className="content ">
             <h1 className="font-bold text-5xl mb-10 bg-[#a1eb7f] py-5 px-5">E-mail
             marketing</h1>
             <p className="text-3xl"><span className="text-white bg-black rounded-[50%] px-2 text-3xl">&rarr;</span> Learn More</p>
