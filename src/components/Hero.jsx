@@ -3,6 +3,7 @@ import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
 import { mainTL } from "../../sharedTimeline";
 
+
 export function Hero() {
   const heroRef = useRef();
   const marqeeRef = useRef();
@@ -43,7 +44,7 @@ export function Hero() {
         duration: 15,
         ease: "linear",
         repeat: -1,
-        invalidateOnRefresh: true,
+   
       }
     );
   });
