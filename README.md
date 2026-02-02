@@ -1,16 +1,42 @@
-# React + Vite
+# GSAP + Lenis Smooth Scroll Study
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A smooth scrolling and animation project built using **GSAP** and **Lenis**.  
+This project focuses on understanding scroll-based animations, timing, easing, and smooth scrolling behavior used in modern websites.
 
-Currently, two official plugins are available:
+> ⚠️ This is a **learning & practice project** created for educational purposes only.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
+- Smooth scrolling using **Lenis**
+- Scroll-based animations with **GSAP**
+- Clean animation timing and easing
+- Modern website interaction patterns
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+- React
+- **GSAP**
+- **Lenis**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📚 Learning Goals
+- Understand how Lenis works 
+- Learn GSAP timelines and scroll-triggered animations
+- Practice syncing smooth scrolling with animations
+- Improve animation flow and performance
+
+---
+
+## 🔗 Reference / Inspiration
+This project is inspired by the following website:
+
+👉 **Original Website:**  
+https://wizardz-ak.netlify.app/#
+
+All design credit goes to the original creators.
+
+---
+
