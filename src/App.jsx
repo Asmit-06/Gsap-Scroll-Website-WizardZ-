@@ -7,7 +7,7 @@ function App() {
     mainTL.play()
   })
 return(
-  <main className="h-dvh overflow-hidden">
+  <main className="h-dvh overflow-x-hidden">
     <Nav/>
     <Hero/>
   </main>
